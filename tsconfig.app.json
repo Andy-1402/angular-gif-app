@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 /* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
 /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
+=======
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {

@@ -1,10 +1,17 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
+<<<<<<< HEAD
+=======
+  "cli": {
+    "packageManager": "npm"
+  },
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
   "newProjectRoot": "projects",
   "projects": {
     "gifs-app": {
       "projectType": "application",
+<<<<<<< HEAD
       "schematics": {
         "@schematics/angular:component": {
           "standalone": false
@@ -16,25 +23,41 @@
           "standalone": false
         }
       },
+=======
+      "schematics": {},
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
+<<<<<<< HEAD
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/gifs-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
+=======
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/gifs-app",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
             "polyfills": [
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
+<<<<<<< HEAD
               {
                 "glob": "**/*",
                 "input": "public"
               }
+=======
+              "src/favicon.ico",
+              "src/assets"
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
             ],
             "styles": [
               "src/styles.css"
@@ -46,6 +69,7 @@
               "budgets": [
                 {
                   "type": "initial",
+<<<<<<< HEAD
                   "maximumWarning": "500kB",
                   "maximumError": "1MB"
                 },
@@ -53,14 +77,32 @@
                   "type": "anyComponentStyle",
                   "maximumWarning": "4kB",
                   "maximumError": "8kB"
+=======
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
                 }
               ],
               "outputHashing": "all"
             },
             "development": {
+<<<<<<< HEAD
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+=======
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
             }
           },
           "defaultConfiguration": "production"
@@ -69,16 +111,30 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "gifs-app:build:production"
             },
             "development": {
               "buildTarget": "gifs-app:build:development"
+=======
+              "browserTarget": "gifs-app:build:production"
+            },
+            "development": {
+              "browserTarget": "gifs-app:build:development"
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
             }
           },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
+<<<<<<< HEAD
           "builder": "@angular-devkit/build-angular:extract-i18n"
+=======
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "gifs-app:build"
+          }
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
@@ -89,10 +145,15 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
+<<<<<<< HEAD
               {
                 "glob": "**/*",
                 "input": "public"
               }
+=======
+              "src/favicon.ico",
+              "src/assets"
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
             ],
             "styles": [
               "src/styles.css"

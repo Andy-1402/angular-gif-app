@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+=======
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
 
 # Compiled output
 /dist

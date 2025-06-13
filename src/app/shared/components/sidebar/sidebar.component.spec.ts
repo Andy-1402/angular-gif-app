@@ -8,7 +8,11 @@ describe('SidebarComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+<<<<<<< HEAD
       declarations: [SidebarComponent]
+=======
+      declarations: [ SidebarComponent ]
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
     })
     .compileComponents();
 

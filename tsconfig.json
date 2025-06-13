@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 /* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
 /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "compileOnSave": false,
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
+=======
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+<<<<<<< HEAD
     "skipLibCheck": true,
     "isolatedModules": true,
     "esModuleInterop": true,
@@ -17,6 +28,21 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022"
+=======
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+    "lib": [
+      "ES2022",
+      "dom"
+    ]
+>>>>>>> caf7d66d2559c6de6e4f0cf73c809038106d6d89
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
